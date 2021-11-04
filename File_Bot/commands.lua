@@ -509,10 +509,10 @@ if text == 'م11' then
   send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
 end
-if text == 'أبو أسيل' then
+if text == 'السورس' then
   local help_text = database:get(bot_id..'help11_text')
   Text = [[
-*حياك الله عزيزي هذا أبو اسيل*
+*مطور السورس هو أبو أسيل للتواصل مع المطور أدخل القناة وسوف تجد معرف المطور*
   [قناة البوت](t.me/yousef_labban1)
   ]]
   send(msg.chat_id_, msg.id_,(help_text or Text)) 
