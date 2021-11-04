@@ -510,7 +510,7 @@ if text == 'م11' then
 return false
 end
 if text == 'السورس' then
-  local help_text = database:get(bot_id..'help11_text')
+  local help_text = database:get(bot_id..'help12_text')
   Text = [[
 *مطور السورس هو أبو أسيل للتواصل مع المطور أدخل القناة وسوف تجد معرف المطور*
   [قناة البوت](t.me/yousef_labban1)
